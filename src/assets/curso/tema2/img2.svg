@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112" height="117" viewBox="0 0 112 117">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_39043" data-name="Rectángulo 39043" width="82" height="82" transform="translate(0.399 0.399)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_154375" data-name="Grupo 154375" transform="translate(-216 -710)">
+    <g id="Grupo_148268" data-name="Grupo 148268" transform="translate(229.601 744.601)">
+      <g id="Grupo_148268-2" data-name="Grupo 148268" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Trazado_209791" data-name="Trazado 209791" d="M41.533,83.069A41.534,41.534,0,1,1,83.066,41.536,41.533,41.533,0,0,1,41.533,83.069" transform="translate(0 0)" fill="#ffbc42"/>
+        <path id="Trazado_209792" data-name="Trazado 209792" d="M6.389,41.533A41.526,41.526,0,0,1,44.729.134C43.673.054,42.612,0,41.533,0a41.533,41.533,0,0,0,0,83.066c1.079,0,2.14-.054,3.2-.134a41.526,41.526,0,0,1-38.34-41.4" transform="translate(0 0)" fill="#cc9634"/>
+        <path id="Trazado_209793" data-name="Trazado 209793" d="M18.7,42.818a6.39,6.39,0,0,1-6.389-6.389V10.867a6.389,6.389,0,0,1,12.779,0V36.428A6.39,6.39,0,0,1,18.7,42.818" transform="translate(22.828 8.301)" fill="#002e3c"/>
+        <path id="Trazado_209794" data-name="Trazado 209794" d="M18.7,32.932a6.389,6.389,0,1,1,6.389-6.389A6.39,6.39,0,0,1,18.7,32.932" transform="translate(22.828 37.358)" fill="#002e3c"/>
+      </g>
+    </g>
+    <text id="Para_recordar" data-name="Para recordar" transform="translate(216 729)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Para recordar</tspan></text>
+  </g>
+</svg>
