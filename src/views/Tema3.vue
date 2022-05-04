@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
@@ -16,15 +16,15 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
       h2 3.1. Conceptos, tipos y características de programación 
     .row.justify-content-center
-      .col-lg-5
+      .col-lg-5.aaas
         img(src='@/assets/curso/tema3/img2.png', alt='Texto que describa la imagen')
 
       .col-lg-7
         p Dentro de los tipos de programación que se pueden encontrar para mantenimiento se encuentra el manual de operaciones, que es donde se realizan todas las actividades por el ser humano, automatizado que se da por medio de la ayuda y operación de máquinas de nuevas tecnologías, es decir, por medio de controladores se pone en marcha los equipos de la planta y estos los opera un personal calificado y capacitado en dichas labores. 
         p.bgtexto.p-4 Al personal se le capacita en todo el funcionamiento y conocimiento de fichas técnicas, tanto de equipos como del uso de las sustancias químicas que se adicionan, encontrando coagulantes o sustancias de limpieza al utilizar en los mantenimientos preventivos de tanques, desarenadores, filtros y rejillas del sistema compuesto de la planta. 
         p A continuación, se dará claridad a algunos de los conceptos más relevantes de la programación de mantenimientos: 
-    <br><br>
-    .row.justify-content-center
+
+    .row.justify-content-center.mt-5
       .col-lg-10
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
@@ -49,13 +49,13 @@
     .row.justify-content-center
       .col-lg-9.mt-4
         p Para la programación de mantenimiento se debe saber a todo momento cómo está funcionando cada unidad de la planta y por eso se requiere periódicamente realizar ciertas actividades como lo son toma de muestras en cada proceso de agua: coagulada, floculada, sedimentada, filtrada y clorada. Con todas estas muestras se irán determinando diferentes parámetros importantes para el resultado final de calidad del agua. 
-        <br>
-        p Para la programación de dichos mantenimientos se deben realizar verificaciones periódicas como lo son:
+
+        p.mt-4 Para la programación de dichos mantenimientos se deben realizar verificaciones periódicas como lo son:
 
       .col-lg-3
         img(src='@/assets/curso/tema3/img4.svg', alt='Texto que describa la imagen')
-    <br><br>
-    .tarjeta.tarjeta--azul.p-4.mb-5
+
+    .tarjeta.tarjeta--azul.p-4.mb-5.mt-5
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0
@@ -106,19 +106,23 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
       h2 3.3. Clases de recursos para realizar mantenimientos
     p A continuación, se muestra un paso a paso sobre el adecuado mantenimiento de los tanques de homogeneización:
-    <br><br><br>
-    .row.justify-content-center
-      .col-lg-9
+
+    .row.justify-content-center.mt-5
+      .col-lg-9.mt-4
         img(src='@/assets/curso/tema3/img11.svg', alt='Texto que describa la imagen')
     p Recuerde que los insumos necesarios para realizar estos mantenimientos son:
     .row.justify-content-center.bg4
-      .col-lg-8
+      .col-lg-8.mb-5
         img(src='@/assets/curso/tema3/img12.svg', alt='Texto que describa la imagen')
-        <br><br><br>
-    .row.justify-content-center
-      .col-lg-7.mt-4
-        <br><br><br>
-        p.bgtexto.p-4 Una inadecuada intervención en cuanto a las actividades de mantenimiento y la falta de pericia de los operarios y estandarización de los procedimientos son los causantes de los altos sobrecostos, por este motivo es de gran importancia que el coordinador de la planta lleve al día los cronogramas y programaciones de mantenimiento preventivo y predictivos de la planta, así se presentarán menos riesgos y eventualidades que puedan frenar o disminuir el funcionamiento de la planta de tratamiento de agua potable. 
+      
+    .row.bajar.mt-5
+      .col-lg-7.bgtexto.mt-5
+        p.p-4 Una inadecuada intervención en cuanto a las actividades de mantenimiento y la falta de pericia de los operarios y estandarización de los procedimientos son los causantes de los altos sobrecostos, por este motivo es de gran importancia que el coordinador de la planta lleve al día los cronogramas y programaciones de mantenimiento preventivo y predictivos de la planta, así se presentarán menos riesgos y eventualidades que puedan frenar o disminuir el funcionamiento de la planta de tratamiento de agua potable. 
+      .col-lg-3.bgtexto.mt-5
+        p.p-4 
+    
+    .row.mt-5
+      .col-lg-7
       .col-lg-5
         img(src='@/assets/curso/tema3/img13.png', alt='Texto que describa la imagen')
 
