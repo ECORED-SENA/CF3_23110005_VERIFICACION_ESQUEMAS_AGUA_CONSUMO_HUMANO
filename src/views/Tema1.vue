@@ -7,7 +7,7 @@
         span 1
       h1 Cronograma de mantenimiento de unidades 
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-lg-4
+      .col-lg-4(data-aos="fade-up-right")
         img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen')
       .col-lg-8
         p.mt-4.p-3.bgtexto Se considera de gran importancia iniciar este componente con la programación de mantenimientos en las plantas de tratamiento de agua, ya que con estos cronogramas se garantiza un eficiente rendimiento de los procesos realizados en la planta. Asimismo, se tendrá en cuenta en el cronograma desde el mantenimiento preventivo hasta el mantenimiento correctivo en caso de presentarse.
@@ -17,10 +17,16 @@
       h2 1.1. Conceptos, tipos y características de redes de agua 
     p La red de distribución es la encargada de distribuir el agua desde la planta de tratamiento o el tanque hasta la conexión del servicio a donde esta se prestará, dichas redes se pueden clasificar por la forma de funcionamiento como lo son: ramificadas, malladas o mixtas. También se clasifican las redes por diferenciación de presiones.
     p.mt-2 Algunos de los conceptos que hace referencia a las redes de agua son: 
-    img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen')
+
+    .row.bgmm
+      .col-lg-12.px-lg-5.px-4
+        img(data-aos="fade-up-right")(src='@/assets/curso/tema1/x.svg', alt='Texto que describa la imagen')
+
+
+
     p.mb-5 Ahora bien, con respecto a los tipos de redes de agua que se encuentran están: 
 
-    TabsC.color-acento-contenido
+    TabsC.color-acento-contenido(data-aos="fade-up-right")
       .py-3.py-md-4(titulo="Redes ramificadas")
         .row
           .col-md-1
@@ -43,7 +49,7 @@
             figure
               img(src='@/assets/curso/tema1/img4.png', alt='Texto que describa la imagen')
           .col-mg-1
-    .row.justify-content-center.bg2
+    .row.justify-content-center.bg2(data-aos="fade-up-right")
       .col-lg-5
         img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
       .col-lg-7.mt-5
@@ -54,37 +60,38 @@
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
       h2 1.2. Tipos de variables y principios de funcionamiento   
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up-right")
       .col-lg-4
         img(src='@/assets/curso/tema1/img6.png', alt='Texto que describa la imagen')
       .col-lg-8
         p Las variables que se pueden presentar o cambiar aspectos y resultados de la cantidad y calidad del agua son inicialmente los caudales y la calidad del agua con la que llega a la toma y a los desarenadores.
         p.bgtexto.p-3 Es de tener en cuenta el test de jarras para calcular coagulantes y floculadores para así poder obtener un buen resultado en el tratamiento del agua de dicha planta.
         p Sabiendo esto, a continuación, se presentan los tipos de variables y principios fundamentales de la calidad del agua: 
+    .row.bgmm
+      .col-lg-12.px-lg-5.px-4
+        ImagenInfografica.color-secundario.mb-5.mt-5(data-aos="fade-up-right")
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema1/img7.svg', alt='Texto que describa la imagen')
 
-    ImagenInfografica.color-secundario.mb-5.mt-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/tema1/img7.svg', alt='Texto que describa la imagen')
+          .tarjeta.color-acento-botones.p-4(x="16.5%" y="8%" numero="")
+            .h4.mb-2 1. Regulación de caudal
+            p • Se regula operando las válvulas o compuertas de entrada.
+            p • Cuando llega el agua muy sucia se debe bajar el caudal para no saturar el sistema.
 
-      .tarjeta.color-acento-botones.p-3(x="16.5%" y="8%" numero="")
-        .h4.mb-2 1. Regulación de caudal
-        p • Se regula operando las válvulas o compuertas de entrada.
-        p • Cuando llega el agua muy sucia se debe bajar el caudal para no saturar el sistema.
+          .tarjeta.color-acento-botones.p-4(x="36%" y="50%" numero="")
+            .h4.mb-2 2. Dosificación de químicos 
+            p • Se debe realizar el ensayo de jarras para determinar la dosis a aplicar a toda el agua que ingresa al sistema
 
-      .tarjeta.color-acento-botones.p-3(x="36%" y="50%" numero="")
-        .h4.mb-2 2. Dosificación de químicos 
-        p • Se debe realizar el ensayo de jarras para determinar la dosis a aplicar a toda el agua que ingresa al sistema
-
-      .tarjeta.color-acento-botones.p-3(x="53.5%" y="8%" numero="")
-        .h4.mb-2 3. Lavado de filtros
-        p • Se determina bajo criterios de filtros: tiempo de trabajo, calidad del agua y nivel de agua.
-        p • Las purgas se realizan en las unidades de sedimentación, evitando  acumulación en los filtros.
-      .tarjeta.color-acento-botones.p-3(x="74%" y="50%" numero="")
-        .h4.mb-2 4. Operación de equipos electromecánicos
-        p • Se conoce en qué momento se requiere el encendido o apagado de los equipos.
-        p • Se conocen los controles y características de los mismos.
-    .row.justify-content-center
+          .tarjeta.color-acento-botones.p-4(x="53.5%" y="8%" numero="")
+            .h4.mb-2 3. Lavado de filtros
+            p • Se determina bajo criterios de filtros: tiempo de trabajo, calidad del agua y nivel de agua.
+            p • Las purgas se realizan en las unidades de sedimentación, evitando  acumulación en los filtros.
+          .tarjeta.color-acento-botones.p-4(x="74%" y="50%" numero="")
+            .h4.mb-2 4. Operación de equipos electromecánicos
+            p • Se conoce en qué momento se requiere el encendido o apagado de los equipos.
+            p • Se conocen los controles y características de los mismos.
+    .row.justify-content-center(data-aos="fade-up-right")
       .col-lg-9
         p.mt-4 Por lo anterior, es necesario medir la cantidad de agua que llega y la que puede ser tratada. Es así como dentro de los principios de funcionamiento se encuentra la <strong>desarenación,</strong> la cual es una tarea rutinaria para el operador de la planta.
         p Cabe resaltar que el propósito del desarenador es reducir el volumen de sólidos que pueden ingresar a la planta y así poder eliminar las interferencias que se puedan presentar en los procesos de la planta, así mismo, con la desarenación baja la turbiedad del agua dando paso a su clarificación. También dentro de los principios de un buen funcionamiento de una planta de tratamiento de agua se puede encontrar el <strong>ensayo de jarra.</strong>
@@ -93,7 +100,15 @@
 
     .row.justify-content-center.mt-5
       .col-lg-10
-        img(src='@/assets/curso/tema1/img9.svg', alt='Texto que describa la imagen')
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema1/ico.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-3
+              .row.align-content-right.maaa
+                .col-lg-11
+                  h5.mb-0 Ensayo de jarra
+                  p.mb-0 Se trata de una simulación de las condiciones en las que se realiza un proceso de coagulación y de sedimentación. Dependiendo del resultado de este ensayo se calcula la dosificación de coagulante que requiere cierta cantidad de agua ya que esta se mide mg/litro.
 
 
 </template>

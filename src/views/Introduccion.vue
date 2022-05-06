@@ -11,9 +11,9 @@
     
     p(data-aos="zoom-out") Bienvenidos a este componente formativo y como primera instancia, vamos a ver el siguiente video que nos dará una introducción general al tema para luego empezar a desarrollar cada uno de los contenidos:
 
-    .row.justify-content-center.bgvideos.mt-5
-      .col-lg-10.mb-5.p-5
-        figure
+    .row.justify-content-center.bgvideos.mt-5(data-aos="fade-up-right")
+      .col-lg-10.p-5
+        figure.w
           .video(data-aos="zoom-out-up")
             iframe(width="560" height="215" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

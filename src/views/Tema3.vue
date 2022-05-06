@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Ejecución de unidades y equipos de sistema
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up-right")
       .col-lg-7
         p En el pasado las comunidades solo se preocupaban por mejorar la apariencia del agua, pero no sabían de los problemas microbiológicos o químicos que no son vistos al ojo humano. Es por ello que, con la evolución se fueron creando equipos que servían para la mejora de las condiciones fisicoquímicas y microbiológicas, donde uno de esos equipos en el laboratorio fue el equipo de prueba de jarras para el control de coagulación. ¿Sabe qué es, qué hace o qué más se puede encontrar? Por acá un pequeño recorderis…
         p Este equipo es un agitador mecánico con 3 o 6 paletas que opera de 0 a 100 revoluciones por minuto, hoy en día se encuentran equipos de hasta 400 revoluciones por minuto. También, se hallan los sistemas de dosificación, que facilitan la dosificación de coagulantes químicos en la jarra para el test, para lo que se requiere un equipo auxiliar que consta de cronómetro, medidor de turbiedad, pH y color.
@@ -15,7 +15,7 @@
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
       h2 3.1. Conceptos, tipos y características de programación 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up-right")
       .col-lg-5.aaas
         img(src='@/assets/curso/tema3/img2.png', alt='Texto que describa la imagen')
 
@@ -24,7 +24,7 @@
         p.bgtexto.p-4 Al personal se le capacita en todo el funcionamiento y conocimiento de fichas técnicas, tanto de equipos como del uso de las sustancias químicas que se adicionan, encontrando coagulantes o sustancias de limpieza al utilizar en los mantenimientos preventivos de tanques, desarenadores, filtros y rejillas del sistema compuesto de la planta. 
         p A continuación, se dará claridad a algunos de los conceptos más relevantes de la programación de mantenimientos: 
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5(data-aos="fade-up-right")
       .col-lg-10
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
@@ -46,7 +46,7 @@
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
       h2 3.2. Programación de mantenimiento
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up-right")
       .col-lg-9.mt-4
         p Para la programación de mantenimiento se debe saber a todo momento cómo está funcionando cada unidad de la planta y por eso se requiere periódicamente realizar ciertas actividades como lo son toma de muestras en cada proceso de agua: coagulada, floculada, sedimentada, filtrada y clorada. Con todas estas muestras se irán determinando diferentes parámetros importantes para el resultado final de calidad del agua. 
 
@@ -56,7 +56,7 @@
         img(src='@/assets/curso/tema3/img4.svg', alt='Texto que describa la imagen')
 
     .tarjeta.tarjeta--azul.p-4.mb-5.mt-5
-      SlyderA(tipo="b")
+      SlyderA(tipo="b")(data-aos="fade-up-right")
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0
             p Verificación diaria de todas las estructuras hidráulicas, con el fin de identificar si hay algún indicio de fisuras o problemas de funcionamiento y corregirlos a tiempo.
@@ -107,14 +107,16 @@
       h2 3.3. Clases de recursos para realizar mantenimientos
     p A continuación, se muestra un paso a paso sobre el adecuado mantenimiento de los tanques de homogeneización:
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5(data-aos="fade-up-right")
       .col-lg-9.mt-4
         img(src='@/assets/curso/tema3/img11.svg', alt='Texto que describa la imagen')
     p Recuerde que los insumos necesarios para realizar estos mantenimientos son:
-    .row.justify-content-center.bg4
-      .col-lg-8.mb-5
-        img(src='@/assets/curso/tema3/img12.svg', alt='Texto que describa la imagen')
-      
+    .row.bgmm
+      .col-lg-12.px-lg-5.px-4
+        .row.justify-content-center.bg4
+          .col-lg-8.mb-5(data-aos="fade-up-right")
+            img(src='@/assets/curso/tema3/img12.svg', alt='Texto que describa la imagen')
+          
     .row.bajar.mt-5
       .col-lg-7.bgtexto.mt-5
         p.p-4 Una inadecuada intervención en cuanto a las actividades de mantenimiento y la falta de pericia de los operarios y estandarización de los procedimientos son los causantes de los altos sobrecostos, por este motivo es de gran importancia que el coordinador de la planta lleve al día los cronogramas y programaciones de mantenimiento preventivo y predictivos de la planta, así se presentarán menos riesgos y eventualidades que puedan frenar o disminuir el funcionamiento de la planta de tratamiento de agua potable. 
