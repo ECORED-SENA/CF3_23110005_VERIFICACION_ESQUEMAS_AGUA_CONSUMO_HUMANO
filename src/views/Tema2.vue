@@ -56,7 +56,41 @@
               )
               .bloque-texto-g__texto.p-5
                 p.mb-0 Para el manejo de la información y análisis de los datos se dispone del Reglamento técnico del sector de agua potable y saneamiento RAS 2000. Pero ¿qué hace este reglamento? Pues bien, dispone de fórmulas y variables para obtener resultados de los procesos en los que se debe calcular y registrar datos dentro de la planta de tratamiento de agua potable. Algunos de estos cálculos se pueden usar para:
-            img.mb2.mt-5(src='@/assets/curso/tema2/gru.svg', alt='Texto que describa la imagen')
+            .row.justify-content-center.mt-5
+              .col-md-5
+                h2.text-white.text-center Técnicas de manejo de información y análisis de los datos registrados
+            .row.marw
+              .col-md-4
+                img.wimo(src='@/assets/curso/tema2/1.svg', alt='Texto que describa la imagen')
+                .row
+                  .col-md-9
+                    h2.text-white.text-center.mt-4 Proyección de población
+              .col-md-4
+                img.wimo(src='@/assets/curso/tema2/2.svg', alt='Texto que describa la imagen')
+                .row
+                  .col-md-10
+                    h2.text-white.text-center.mt-4 Proyección de demanda de agua (caudal)
+              .col-md-4
+                img.wimo(src='@/assets/curso/tema2/3.svg', alt='Texto que describa la imagen')
+                .row
+                  .col-md-8
+                    h2.text-white.text-center.mt-4 Bandejas de aireación
+            .row.justify-content-center.mt-5.mb-5.marw
+              .col-md-4
+                img.wimo(src='@/assets/curso/tema2/4.svg', alt='Texto que describa la imagen')
+                .row
+                  .col-md-9
+                    h2.text-white.text-center.mt-4 Tanqueo de almacenamiento
+              .col-md-4
+                img.wimo(src='@/assets/curso/tema2/5.svg', alt='Texto que describa la imagen')
+                .row
+                  .col-md-8
+                    h2.text-white.text-center.mt-4 Tanque sedimentador
+              .col-md-4
+                img.wimo(src='@/assets/curso/tema2/6.svg', alt='Texto que describa la imagen')
+                .row.justify
+                  .col-md-10.mb-5
+                    h2.text-white.text-center.mt-4 Aducción
             
 
     .row.justify-content-center.mt-5(data-aos="fade-up-right")

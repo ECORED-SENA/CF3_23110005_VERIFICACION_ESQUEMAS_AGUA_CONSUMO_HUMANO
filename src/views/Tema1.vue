@@ -18,10 +18,21 @@
     p La red de distribución es la encargada de distribuir el agua desde la planta de tratamiento o el tanque hasta la conexión del servicio a donde esta se prestará, dichas redes se pueden clasificar por la forma de funcionamiento como lo son: ramificadas, malladas o mixtas. También se clasifican las redes por diferenciación de presiones.
     p.mt-2 Algunos de los conceptos que hace referencia a las redes de agua son: 
 
-    .row.bgmm
+    .row.bgmm2.mb-5.mt-5
       .col-lg-12.px-lg-5.px-4
-        img(data-aos="fade-up-right")(src='@/assets/curso/tema1/x.svg', alt='Texto que describa la imagen')
-
+        .row
+          .col-md-8
+            img(data-aos="fade-up-right")(src='@/assets/curso/tema1/1.svg', alt='Texto que describa la imagen')
+          .col-md-4
+            .row.f1
+              .col-md-11
+                p.mt-4.mb-5.aqw <strong>Estación de bombeo:</strong> son aquellas estructuras en las que su función es elevar el fluido de un nivel energético menor a uno mayor.
+            .row.f2
+              .col-md-11
+                p.mt-4.mb-5.aqw <strong>Tuberías:</strong> es el conducto que cumple con la función de transportar fluidos y pueden estar hechos en diferentes materiales como es el acero, cobre, hierro fundido, tubo de gres o fibrocemento.
+            .row.f3
+              .col-md-11
+                p.mt-4.mb-5.aqw <strong>Tanques de almacenamiento:</strong> es aquel depósito que está destinado a almacenar el fluido, es el elemento fundamental en la red de abastecimiento de agua. Los tanques desde un punto de vista de ubicación y terreno pueden ser subterráneos, apoyados en una superficie o elevados aquellos que están por encima de los techos.
 
 
     p.mb-5 Ahora bien, con respecto a los tipos de redes de agua que se encuentran están: 
