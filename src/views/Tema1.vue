@@ -24,7 +24,7 @@
           .col-md-8
             img(data-aos="fade-up-right")(src='@/assets/curso/tema1/1.svg', alt='Texto que describa la imagen')
           .col-md-4
-            .row.f1
+            .row.f1.aaaz
               .col-md-11
                 p.mt-4.mb-5.aqw <strong>Estación de bombeo:</strong> son aquellas estructuras en las que su función es elevar el fluido de un nivel energético menor a uno mayor.
             .row.f2
