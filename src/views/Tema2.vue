@@ -20,7 +20,7 @@
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
       h2 2.1. Manuales de operación y mantenimiento técnico    
-    p Para el manejo de la información y análisis de los datos se dispone del Reglamento técnico del sector de agua potable y saneamiento RAS 2000. Pero ¿qué hace este reglamento? Pues bien, dispone de fórmulas y variables para obtener resultados de los procesos en los que se debe calcular y registrar datos dentro de la planta de tratamiento de agua potable. Algunos de estos cálculos se pueden usar para:
+    p El manual de operación y mantenimiento para las plantas de tratamiento de agua potable es el que indica los proceso en los que se debe trabajar y por cada etapa que debe pasar el caudal del agua. Vea el proceso:
     
     .row.bgmm.mt-5
       .col-lg-12.px-lg-5.px-4    
@@ -46,6 +46,8 @@
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
       h2 2.2. Técnicas de manejo de información y análisis de los datos registrados 
+    p Para el manejo de la información y análisis de los datos se dispone del Reglamento técnico del sector de agua potable y saneamiento RAS 2000. Pero ¿qué hace este reglamento? Pues bien, dispone de fórmulas y variables para obtener resultados de los procesos en los que se debe calcular y registrar datos dentro de la planta de tratamiento de agua potable. Algunos de estos cálculos se pueden usar para:
+
     .row.bgmm(data-aos="fade-up-right")
       .col-lg-12.px-lg-5.px-4   
         .row.justify-content-center.bgtema2
@@ -55,7 +57,7 @@
                 :style="{'background-image': `url(${require('@/assets/curso/tema2/ico.svg')})`}"
               )
               .bloque-texto-g__texto.p-5
-                p.mb-0 Para el manejo de la información y análisis de los datos se dispone del Reglamento técnico del sector de agua potable y saneamiento RAS 2000. Pero ¿qué hace este reglamento? Pues bien, dispone de fórmulas y variables para obtener resultados de los procesos en los que se debe calcular y registrar datos dentro de la planta de tratamiento de agua potable. Algunos de estos cálculos se pueden usar para:
+                p.mb-0 Para el manejo de la información y análisis de los datos se dispone del Reglamento Técnico del sector de Agua Potable y Saneamiento RAS 2000. Pero ¿qué hace este reglamento? Pues bien, dispone de fórmulas y variables para obtener resultados de los procesos en los que se debe calcular y registrar datos dentro de la planta de tratamiento de agua potable. Algunos de estos cálculos se pueden usar para:
             .row.justify-content-center.mt-5
               .col-md-5
                 h2.text-white.text-center Técnicas de manejo de información y análisis de los datos registrados
@@ -101,7 +103,7 @@
         img(src='@/assets/curso/tema2/img5.png', alt='Texto que describa la imagen')
     separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
-      h2 2.3. Técnicas de manejo de información y análisis de los datos registrados    
+      h2 2.3. Técnicas de presentación de informes
     .row.justify-content-center(data-aos="fade-up-right")
       .col-lg-3
         img(src='@/assets/curso/tema2/img6.png', alt='Texto que describa la imagen')
@@ -109,7 +111,7 @@
         p Las plantas de tratamiento de agua potable involucran muchos procesos en los que debe pasar el material para lograr el producto final, que en este caso es la calidad del agua potable para consumo humano; es de allí donde se presentan los informes y su revisión por parte de los entes regulatorios que otorgan las licencias y permisos a dichas plantas. En el siguiente video se amplía esta información:
     figure.mt-4
       .video
-        iframe(width="560" height="215" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)                 
+        iframe(width="560" height="215" src="https://www.youtube.com/embed/Lx5glnewyug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)                 
 </template>
 
 <script>

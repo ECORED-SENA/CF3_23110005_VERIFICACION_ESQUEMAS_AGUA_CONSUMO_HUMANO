@@ -16,7 +16,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
       h2 1.1. Conceptos, tipos y características de redes de agua 
     p La red de distribución es la encargada de distribuir el agua desde la planta de tratamiento o el tanque hasta la conexión del servicio a donde esta se prestará, dichas redes se pueden clasificar por la forma de funcionamiento como lo son: ramificadas, malladas o mixtas. También se clasifican las redes por diferenciación de presiones.
-    p.mt-2 Algunos de los conceptos que hace referencia a las redes de agua son: 
+    p.mt-2 Algunos de los conceptos que hacen referencia a las redes de agua son: 
 
     .row.bgmm2.mb-5.mt-5
       .col-lg-12.px-lg-5.px-4
@@ -26,13 +26,13 @@
           .col-md-4
             .row.f1.aaaz
               .col-md-11
-                p.mt-4.mb-5.aqw <strong>Estación de bombeo:</strong> son aquellas estructuras en las que su función es elevar el fluido de un nivel energético menor a uno mayor.
+                p.mt-4.mb-5.aqw <strong>Estación de bombeo:</strong> son aquellas estructuras cuya función es elevar el fluido de un nivel energético menor a uno mayor.
             .row.f2
               .col-md-11
                 p.mt-4.mb-5.aqw <strong>Tuberías:</strong> es el conducto que cumple con la función de transportar fluidos y pueden estar hechos en diferentes materiales como es el acero, cobre, hierro fundido, tubo de gres o fibrocemento.
             .row.f3
               .col-md-11
-                p.mt-4.mb-5.aqw <strong>Tanques de almacenamiento:</strong> es aquel depósito que está destinado a almacenar el fluido, es el elemento fundamental en la red de abastecimiento de agua. Los tanques desde un punto de vista de ubicación y terreno pueden ser subterráneos, apoyados en una superficie o elevados aquellos que están por encima de los techos.
+                p.mt-4.mb-5.aqw <strong>Tanques de almacenamiento:</strong> es aquel depósito que está destinado a almacenar el fluido, es el elemento fundamental en la red de abastecimiento de agua. Los tanques desde un punto de vista de ubicación y terreno pueden ser subterráneos, apoyados en una superficie o elevados, aquellos que están por encima de los techos.
 
 
     p.mb-5 Ahora bien, con respecto a los tipos de redes de agua que se encuentran están: 
@@ -43,7 +43,7 @@
           .col-md-1
           .col-md-5.mb-4.mb-md-0
 
-            p.mt-5 Son las que consisten en presentar una tubería principal en la que después se desprenden tuberías secundarias y a su vez terciarias o de cuarto orden, según el predio en el que se presente esta red. En este tipo de red se pueden realizar los cálculos fácilmente, ya que se puede precisar con exactitud el caudal que circula y también es más económico. La desventaja es que en el momento en que se presenta una avería puede dejar en seco toda la red que le procede al punto del daño.
+            p.mt-5 Son las que consisten en presentar una tubería principal de la que después se desprenden tuberías secundarias y a su vez terciarias o de cuarto orden, según el predio en el que se presente esta red. En este tipo de red se pueden realizar los cálculos fácilmente, ya que se puede precisar con exactitud el caudal que circula y también es más económico. La desventaja es que en el momento en que se presenta una avería puede dejar en seco toda la red que le sigue al punto del daño.
         
           .col-md-5.mt-4
             figure
@@ -54,7 +54,7 @@
           .col-md-1
           .col-md-5.mb-4.mb-md-0
 
-            p.mt-5 Son aquellas que van formando cuadrículas, consiguiendo así que cada punto tenga más vías de consumo, existe un problema de indeterminación del agua, pero a diferencia de la anterior red si se presenta una avería no se va desocupar el resto de la red, sino que el agua va llegar por otras tuberías, puesto que el tramo afectado se puede aislar por válvulas. La dimensión de los tramos de la malla depende de la población y de la carencia del recurso.
+            p.mt-5 Son aquellas que van formando cuadrículas, consiguiendo así que cada punto tenga más vías de consumo; existe un problema de indeterminación del agua, pero a diferencia de la anterior red si se presenta una avería no se va desocupar el resto de la red, sino que el agua va llegar por otras tuberías, puesto que el tramo afectado se puede aislar por válvulas. La dimensión de los tramos de la malla depende de la población y de la carencia del recurso.
         
           .col-md-5.mt-4
             figure
@@ -66,7 +66,7 @@
       .col-lg-7.mt-5
 
         p.mt-5 Tomando en cuenta lo anterior, con las redes de distribución se pretende preservar la calidad y cantidad de agua y mantener las presiones en las distribuciones, todo esto compuesto de válvulas, tuberías y otros componentes del sistema. Hay que destacar que la inversión de la construcción de dichas infraestructuras es muy alta y varía según la red, si esta es pequeña o grande. 
-        p.bgtexto.p-3 Todo este diseño y puesta en marcha se realiza con el ánimo de dar acceso de agua potable a las comunidades o los domicilios que la requieran. 
+        p.bgtexto.p-3 Todo este diseño y puesta en marcha se realiza con el ánimo de dar acceso a agua potable a las comunidades o los domicilios que la requieran. 
         p Es de aclarar que para garantizar que la calidad del agua llegue en óptimas condiciones a su punto final deben estar todos los componentes del sistema funcionando correctamente, es decir, que el principal objetivo de la operación es estar revisando las válvulas de entrada y salida del flujo de agua del tanque de almacenamiento y del sistema completo.
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
@@ -75,9 +75,9 @@
       .col-lg-4
         img(src='@/assets/curso/tema1/img6.png', alt='Texto que describa la imagen')
       .col-lg-8
-        p Las variables que se pueden presentar o cambiar aspectos y resultados de la cantidad y calidad del agua son inicialmente los caudales y la calidad del agua con la que llega a la toma y a los desarenadores.
+        p Las variables que se pueden presentar o que pueden cambiar aspectos y resultados de la cantidad y calidad del agua son inicialmente los caudales y la calidad del agua con la que llega a la toma y a los desarenadores.
         p.bgtexto.p-3 Es de tener en cuenta el test de jarras para calcular coagulantes y floculadores para así poder obtener un buen resultado en el tratamiento del agua de dicha planta.
-        p Sabiendo esto, a continuación, se presentan los tipos de variables y principios fundamentales de la calidad del agua: 
+        p Sabiendo esto, a continuación se presentan los tipos de variables y principios fundamentales de la calidad del agua: 
     .row.bgmm
       .col-lg-12.px-lg-5.px-4
         ImagenInfografica.color-secundario.mb-5.mt-5(data-aos="fade-up-right")
@@ -92,7 +92,7 @@
 
           .tarjeta.color-acento-botones.p-4(x="36%" y="50%" numero="")
             .h4.mb-2 2. Dosificación de químicos 
-            p • Se debe realizar el ensayo de jarras para determinar la dosis a aplicar a toda el agua que ingresa al sistema
+            p Se debe realizar el ensayo de jarras para determinar la dosis a aplicar a toda el agua que ingresa al sistema
 
           .tarjeta.color-acento-botones.p-4(x="53.5%" y="8%" numero="")
             .h4.mb-2 3. Lavado de filtros
