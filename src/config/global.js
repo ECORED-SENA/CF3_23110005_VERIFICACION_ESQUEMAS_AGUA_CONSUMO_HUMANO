@@ -125,7 +125,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -193,25 +197,25 @@ export default {
   complementario: [
     {
       texto:
-        'Conceptos, tipos y características de redes de agua La red del agua. (2020) Redes de distribución [video]. YouTube. https://www.youtube.com/watch?v=NihYc_RHNls&t=452s',
+        'Conceptos, tipos y características de redes de agua La red del agua. (2020) Redes de distribución [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=NihYc_RHNls&t=452s',
     },
     {
       texto:
-        'Manuales de operación y mantenimiento técnico Resolución 330 de 2017. [Ministerio de Vivienda, Ciudad y Territorio]. Por la cual se adopta el Reglamento Técnico para el Sector de Agua Potable y Saneamiento Básico – RAS y se derogan las resoluciones 1096 de 2000, 0424 de 2001, 0668 de 2003, 1459 de 2005, 1447 de 2005 y 2320 de 2009. Junio 8 de 2017. https://www.minvivienda.gov.co/sites/default/files/documentos/0330-2017.pdf',
+        'Manuales de operación y mantenimiento técnico Resolución 330 de 2017. [Ministerio de Vivienda, Ciudad y Territorio]. Por la cual se adopta el Reglamento Técnico para el Sector de Agua Potable y Saneamiento Básico – RAS y se derogan las resoluciones 1096 de 2000, 0424 de 2001, 0668 de 2003, 1459 de 2005, 1447 de 2005 y 2320 de 2009. Junio 8 de 2017.',
       tipo: 'Resolución',
       descarga: ['/downloads/0330-2017.pdf'],
     },
     {
       texto:
-        'Técnicas de manejo de información y análisis de los datos registrados Resolución 2115 de 2007. [Ministerio de la Protección Social y de Ambiente, Vivienda y Desarrollo Territorial]. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano. Junio 22 de 2007. https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resoluci%C3%B3n_2115_de_<br>2007.pdf ',
+        'Técnicas de manejo de información y análisis de los datos registrados Resolución 2115 de 2007. [Ministerio de la Protección Social y de Ambiente, Vivienda y Desarrollo Territorial]. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano. Junio 22 de 2007.',
       tipo: 'Resolución',
       descarga: ['/downloads/Resolución_2115_de_2007.pdf'],
     },
     {
       texto:
-        'Programación de mantenimiento SENA. (s.f.). Operación y mantenimiento de plantas de potabilización de agua. SENA.  https://repositorio.sena.edu.co/sitios/calidad_del_agua/operacion_potabilizacion/index.html#',
+        'Programación de mantenimiento SENA. (s.f.). Operación y mantenimiento de plantas de potabilización de agua. SENA.',
       tipo: 'Documento web ',
       link:
         'https://repositorio.sena.edu.co/sitios/calidad_del_agua/operacion_potabilizacion/index.html# ',
