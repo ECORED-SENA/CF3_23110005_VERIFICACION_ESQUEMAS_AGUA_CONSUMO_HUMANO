@@ -165,7 +165,7 @@ export default {
       referencia:
         'UNATSABAR. (2005). Procedimientos para la operación y mantenimiento de la red de distribución. UNATSABAR',
       link:
-        'http://www.bvsde.opsoms.org/tecapro/documentos/agua/143esp-O&Mredesdisrtr.pdf',
+        'https://sswm.info/sites/default/files/reference_attachments/OPS%202005.%20Gu%C3%ADa%20procedimientos%20para%20operaci%C3%B3n%20y%20mantenimiento%20de%20desarenadores%20y%20sedimentadores.pdf',
     },
   ],
   glosario: [
@@ -205,7 +205,7 @@ export default {
     },
     {
       texto:
-        'Técnicas de manejo de información y análisis de los datos registrados Resolución 2115 de 2007. [Ministerio de la Protección Social y de Ambiente, Vivienda y Desarrollo Territorial]. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano. Junio 22 de 2007. https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resoluci%C3%B3n_2115_de_2007.pdf ',
+        'Técnicas de manejo de información y análisis de los datos registrados Resolución 2115 de 2007. [Ministerio de la Protección Social y de Ambiente, Vivienda y Desarrollo Territorial]. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano. Junio 22 de 2007. https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resoluci%C3%B3n_2115_de_<br>2007.pdf ',
       tipo: 'Resolución',
       descarga: ['/downloads/Resolución_2115_de_2007.pdf'],
     },

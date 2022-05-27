@@ -46,7 +46,6 @@
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
       h2 2.2. Técnicas de manejo de información y análisis de los datos registrados 
-    p Para el manejo de la información y análisis de los datos se dispone del Reglamento técnico del sector de agua potable y saneamiento RAS 2000. Pero ¿qué hace este reglamento? Pues bien, dispone de fórmulas y variables para obtener resultados de los procesos en los que se debe calcular y registrar datos dentro de la planta de tratamiento de agua potable. Algunos de estos cálculos se pueden usar para:
 
     .row.bgmm(data-aos="fade-up-right")
       .col-lg-12.px-lg-5.px-4   
@@ -82,7 +81,7 @@
                 img.wimo(src='@/assets/curso/tema2/4.svg', alt='Texto que describa la imagen')
                 .row
                   .col-md-9
-                    h2.text-white.text-center.mt-4 Tanqueo de almacenamiento
+                    h2.text-white.text-center.mt-4 Tanque de almacenamiento
               .col-md-4
                 img.wimo(src='@/assets/curso/tema2/5.svg', alt='Texto que describa la imagen')
                 .row
